@@ -1,0 +1,17 @@
+package staticdatamember;
+public class StaticDatamember {
+    static int count;
+    public StaticDatamember()
+    {
+        count++;
+    }
+    public static void main(String[] args) {
+    StaticDatamember obj1=new StaticDatamember();
+    StaticDatamember obj2=new StaticDatamember();
+    StaticDatamember obj3=new StaticDatamember();
+    StaticDatamember obj4=new StaticDatamember();
+    StaticDatamember obj5=new StaticDatamember();
+    StaticDatamember obj6=new StaticDatamember();
+    System.out.println("Total number of objects:"+StaticDatamember.count);
+}
+}

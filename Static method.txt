@@ -1,0 +1,33 @@
+package finding;
+public class Finding {
+    class A
+{
+    static void maxmin()
+    {
+         int[] arr=new int[]{10,20,30,40,50,6};   
+    for(int i=0;i<arr.length;i++)
+        System.out.print(arr[i]+" ");
+        int max=arr[0];
+        for(int i=0;i<=5;i++){
+            if(arr[i]>max)
+                max=arr[i];
+    }
+         System.out.println(" ");    
+        System.out.println("The maximum value is:"+max); 
+        int min=arr[2];
+        for(int i=0;i<=5;i++){
+            if(arr[i]<min)
+            min=arr[i];           
+        }
+        System.out.println("The minimum value is:"+min); 
+        int diff= max-min;
+       System.out.println("The difference between minimum and minimum value is:"+diff); 
+        
+    }
+   
+                   }
+    public static void main(String[] args) {
+    A.maxmin();
+    }
+    
+}
